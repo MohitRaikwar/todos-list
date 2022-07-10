@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MohitRaikwar/todos-list/static/css/main.750c5c88.css",
-    "main.js": "/MohitRaikwar/todos-list/static/js/main.c271452e.js",
-    "static/js/787.f237a53c.chunk.js": "/MohitRaikwar/todos-list/static/js/787.f237a53c.chunk.js",
-    "index.html": "/MohitRaikwar/todos-list/index.html",
-    "main.750c5c88.css.map": "/MohitRaikwar/todos-list/static/css/main.750c5c88.css.map",
-    "main.c271452e.js.map": "/MohitRaikwar/todos-list/static/js/main.c271452e.js.map",
-    "787.f237a53c.chunk.js.map": "/MohitRaikwar/todos-list/static/js/787.f237a53c.chunk.js.map"
+    "main.css": "/todos-list/static/css/main.750c5c88.css",
+    "main.js": "/todos-list/static/js/main.2e2c3eea.js",
+    "static/js/787.f237a53c.chunk.js": "/todos-list/static/js/787.f237a53c.chunk.js",
+    "index.html": "/todos-list/index.html",
+    "main.750c5c88.css.map": "/todos-list/static/css/main.750c5c88.css.map",
+    "main.2e2c3eea.js.map": "/todos-list/static/js/main.2e2c3eea.js.map",
+    "787.f237a53c.chunk.js.map": "/todos-list/static/js/787.f237a53c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.750c5c88.css",
-    "static/js/main.c271452e.js"
+    "static/js/main.2e2c3eea.js"
   ]
 }
