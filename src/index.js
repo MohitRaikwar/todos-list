@@ -1,10 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import './index.css';
-import MyRouter from './MyComponents/MyRouter';
-import reportWebVitals from './reportWebVitals';
+import MyRouter from './components/MyRouter';
+import { render } from "react-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('main'));
+render(<MyRouter/>,document.querySelector("#main"));
+
+/*const root = ReactDOM.createRoot(document.getElementById('main'));
 
 root.render(
   <React.StrictMode>
@@ -16,3 +17,4 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+*/

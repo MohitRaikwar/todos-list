@@ -15,7 +15,6 @@ export default function MyRouter() {
         <Route path="/about" element={<About />} />
         <Route path="*" element={<NotFound/>}/>
       </Routes>
-
       <Footer />
     </Router>
   );

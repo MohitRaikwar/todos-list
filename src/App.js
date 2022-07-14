@@ -1,7 +1,7 @@
 import "./App.css";
-import Todos from "./MyComponents/Todos";
+import Todos from "./components/Todos";
 import React, { useState, useEffect } from "react";
-import AddTodo from "./MyComponents/AddTodo";
+import AddTodo from "./components/AddTodo";
 
 function App() {
   let initTodo;
