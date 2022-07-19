@@ -1,17 +1,24 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import { LinkContainer } from "react-router-bootstrap";
 
 export default function Header(props) {
   return (
-    <nav className="nav nav-pills nav-justified">
-      <Link className="nav-link active"  to="/">
-        {props.title}
-      </Link>
-      <Link className="nav-link" to="/About">
-        About
-      </Link>
-    </nav>
+    <Navbar bg="primary" variant="dark">
+      <Container>
+        <LinkContainer to="/">
+          <Navbar.Brand>{props.title}</Navbar.Brand>
+        </LinkContainer>
+        <Nav className="me-auto">
+          <LinkContainer to="/About">
+            <Nav.Link>About</Nav.Link>
+          </LinkContainer>
+        </Nav>
+      </Container>
+    </Navbar>
   );
 }
 
